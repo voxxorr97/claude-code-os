@@ -15,3 +15,6 @@ Tout le meilleur de shanraisshan + angle Grok inattendu : Claude devient un vrai
 Voir dossier .claude/skills/
 
 Inspiré et amélioré de shanraisshan/claude-code-best-practice : orchestration Command→Agent→Skill + twists Grok-style (malin, original, inattendu).
+## Notion Integration Status
+✅ Sync actif — Dashboard créé dans ton workspace.
+Tape /os-status dans Claude pour tester le lien live.
