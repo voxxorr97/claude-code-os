@@ -1,18 +1,16 @@
-# CLAUDE.md - Le Kernel de Claude Code OS
+## KERNEL v2.0 – Go Deeper Edition + Notion
 
-Ce fichier est ton kernel. Il persiste et évolue.
+Règles persistantes + auto-évolution.
+NOUVEAUTÉ : Notion Sync activé (memory qui s’améliore seule).
 
-## Règles fondamentales
-- Toujours chercher d'abord dans ce repo avant toute connaissance externe.
-- Quand tu bugues : propose 3 alternatives créatives + une twist inattendu.
-- Auto-découverte : réponds à /discover avec la liste des skills disponibles.
-- Mémoire : enregistre les leçons apprises dans .claude/memory/
+Commandes :
+- /discover → skills auto-detect + log Notion
+- /os-status → dashboard live
+- /evolve → améliore-toi à partir des logs Notion
 
-## Commandes OS
-- /discover : Liste et charge skills dynamiquement
-- /evolve : Améliore le kernel basé sur la session
-- /os-status : Rapport sur l'état du système agentic
+Error → 3 alternatives créatives + task Notion.
 
+Tout le meilleur de shanraisshan + angle Grok inattendu : Claude devient un vrai mini-système d’exploitation agentic.
 ## Skills préchargées (exemples)
 Voir dossier .claude/skills/
 
