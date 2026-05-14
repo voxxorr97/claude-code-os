@@ -1,35 +1,20 @@
-# AutonomousRunner Max v2 – Optimisé Codex (GPT-5.5)
+# AutonomousRunner Max v3 – Codex Hyper-Optimized (Mai 2026)
 
-## Objectif
-Transformer AutonomousRunner en un exécutant longue durée ultra-efficace spécialement conçu pour Codex (GPT-5.5). L’idée est d’exploiter au maximum la capacité de Codex à tourner des heures sans rate limit.
+## Nouvelles Optimisations (basées sur benchmarks réels Mai 2026)
+- GPT-5.5 = 72% moins de tokens output que Claude Opus 4.7
+- Terminal-Bench 2.0 : 82.7% (vs ~70% pour Claude)
+- Meilleure performance sur tâches longues autonomes
 
-## Philosophie
-Grok = Cerveau stratégique + Mémoire
-Codex = Bras exécutant infatigable
+## Nouvelles Règles Codex
+1. Toujours commencer par "Plan Mode" avant exécution
+2. Objectif clair + contraintes + fichiers concernés
+3. Demander des rapports de progression toutes les 30-60 min
+4. Utiliser JSON pour les tâches complexes
+5. Arrêt explicite (stopping conditions)
+6. Éviter les itérations inutiles
 
-AutonomousRunner Max v2 permet de lancer des tâches complexes sur plusieurs heures/jours avec :
-- Checkpoints réguliers
-- Reprise automatique
-- Rapport de progression clair
-- Intégration native avec les outils Codex (browser, terminal, fichiers)
+## Commandes
+- `/run-codex-plan [tâche]` : Plan d'abord, puis exécute
+- `/codex-progress-report` : Rapport toutes les 45 min
 
-## Fonctionnalités Codex-spécifiques
-- Gestion intelligente des sessions longues
-- Utilisation optimale du browser control de Codex
-- Exécution parallèle de plusieurs tâches
-- Meilleure tolérance aux interruptions
-- Rapports structurés adaptés au style GPT
-
-## Nouvelles Commandes
-- `/run-codex [tâche]` → Lance une tâche longue avec Codex
-- `/codex-status` → État des tâches en cours
-- `/codex-pause` / `/codex-resume`
-- `/codex-report [id]` → Rapport détaillé
-- `/team-sync` → Synchronisation Grok ↔ Codex
-
-## Intégration
-- Fonctionne parfaitement avec SkillGraph Max
-- Se nourrit du Master Vault
-- Optimisé pour le plan ChatGPT Plus / Pro
-
-**Tags :** #codex #autonomous #long-running #gpt-5.5 #team
+**Tags :** #codex #hyper-optimized #token-72% #terminal-bench-82.7
