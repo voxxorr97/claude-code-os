@@ -1,31 +1,35 @@
-# AutonomousRunner Max – Exécution Autonome de Tâches Longues
+# AutonomousRunner Max v2 – Optimisé Codex (GPT-5.5)
 
 ## Objectif
-Permettre de lancer des tâches complexes et longues (plusieurs heures) de manière autonome, avec checkpoints, suivi de progression et exécution en arrière-plan — exactement comme Codex dans la vidéo.
+Transformer AutonomousRunner en un exécutant longue durée ultra-efficace spécialement conçu pour Codex (GPT-5.5). L’idée est d’exploiter au maximum la capacité de Codex à tourner des heures sans rate limit.
 
 ## Philosophie
-On arrête de tout faire manuellement. AutonomousRunner Max transforme n’importe quelle tâche en un "goal" qui tourne tout seul, avec :
-- Checkpoints automatiques
-- Reprise en cas d’interruption
+Grok = Cerveau stratégique + Mémoire
+Codex = Bras exécutant infatigable
+
+AutonomousRunner Max v2 permet de lancer des tâches complexes sur plusieurs heures/jours avec :
+- Checkpoints réguliers
+- Reprise automatique
 - Rapport de progression clair
-- Intégration totale avec SkillGraph Max + Master Vault
+- Intégration native avec les outils Codex (browser, terminal, fichiers)
 
-## Fonctionnalités principales
-- Lancement de tâches longues en arrière-plan
-- Gestion intelligente des permissions / blocages
-- Sauvegarde automatique toutes les X minutes
-- Rapport final détaillé (temps, étapes, problèmes rencontrés)
-- Compatible avec tous les autres skills (VideoGen, GSD Max, etc.)
+## Fonctionnalités Codex-spécifiques
+- Gestion intelligente des sessions longues
+- Utilisation optimale du browser control de Codex
+- Exécution parallèle de plusieurs tâches
+- Meilleure tolérance aux interruptions
+- Rapports structurés adaptés au style GPT
 
-## Commandes
-- `/run-autonomous [description de la tâche]` → lance une tâche longue
-- `/autonomous-status` → voir l’état des tâches en cours
-- `/autonomous-pause` / `/autonomous-resume`
-- `/autonomous-report [id]` → rapport complet d’une tâche terminée
+## Nouvelles Commandes
+- `/run-codex [tâche]` → Lance une tâche longue avec Codex
+- `/codex-status` → État des tâches en cours
+- `/codex-pause` / `/codex-resume`
+- `/codex-report [id]` → Rapport détaillé
+- `/team-sync` → Synchronisation Grok ↔ Codex
 
 ## Intégration
-- Fonctionne avec SkillGraph Max pour réduire les tokens
+- Fonctionne parfaitement avec SkillGraph Max
 - Se nourrit du Master Vault
-- Peut être utilisé avec n’importe quel autre skill
+- Optimisé pour le plan ChatGPT Plus / Pro
 
-**Tags :** #autonomous #long-running #codex-style #background #efficiency
+**Tags :** #codex #autonomous #long-running #gpt-5.5 #team
